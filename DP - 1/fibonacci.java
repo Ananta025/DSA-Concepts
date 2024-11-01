@@ -12,11 +12,22 @@
         property.
 
     *ways of DP
-        Memoization (Top Down)                                                          Tabulation (Bottom Up)
+        *Memoization (Top Down)                                                          Tabulation (Bottom Up)
             
-        1. Normal recursion    
-        2. Store subproblem's solution
-           for reuse  
+        1. Normal recursion                                                         1. Stores the results of subproblems in a table
+        2. Store subproblem's solution                                              2. Iterative implementation
+           for reuse                                                                3. Well-suited for problems with a large set of inputs
+        3. Well-suited for problems with a relatively small set of inputs           4. Used when the subproblems do not overlap
+        4. Used when the subproblems have overlapping subproblems  
+
+        *Important Qs
+            1. Fibonacci
+            2. 0-1 Knapsack
+            3. Unbounded Knapsack
+            4. LCS (Longest Common Subsequence)
+            5. Kadane's Algorithm (Arrays)
+            6. Catalan Number
+            7. DP on Grid (2D Arrays)
 */
 import java.util.*;
 public class fibonacci {
